@@ -2,7 +2,7 @@ package main;
 
 public class Animal {
 
-String name;
+    String name;
     String species;
     int age;
 
@@ -10,5 +10,17 @@ String name;
         this.name = name;
         this.species = species;
         this.age = age;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getSpecies(){
+        return species;
+    }
+
+    public int getAge(){
+        return age;
     }
 }    
