@@ -1,0 +1,13 @@
+# Maven build output
+target/
+
+# Java compiled files
+*.class
+
+# VS Code (по желанию)
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
